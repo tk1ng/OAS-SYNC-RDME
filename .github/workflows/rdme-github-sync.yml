@@ -1,0 +1,27 @@
+name: Sync OAS to ReadMe (rdme Github action)
+on:
+  push:
+    branches:
+    - main
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: readmeio/rdme@6.5.0
+        with:
+          rdme: openapi ./petstore.json --key=${{ secrets.README_API_KEY }} --id=621e4da485089c212d13998a
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: readmeio/rdme@6.5.0
+        with:
+          rdme: openapi ./server-variables.json --key=${{ secrets.README_API_KEY }} --id=621e4dfd4f616612f2d406c8
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: readmeio/rdme@6.5.0
+        with:
+          rdme: openapi ./schema-types.yaml --key=${{ secrets.README_API_KEY }} --id=621e4e2eaa71bf7a279ae98c
