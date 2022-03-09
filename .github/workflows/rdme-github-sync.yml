@@ -26,7 +26,7 @@ jobs:
         with:
           rdme: openapi ./schema-types.yaml --key=${{ secrets.README_API_KEY }} --id=621e4e2eaa71bf7a279ae98c
           
-job4:
+  job4:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
