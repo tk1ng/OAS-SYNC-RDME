@@ -1013,7 +1013,7 @@
           "name": {
             "type": "string",
             "example": "doggie",
-            "description": "<<dog>>"
+            "description": <<dog>>
           },
           "photoUrls": {
             "type": "array",
