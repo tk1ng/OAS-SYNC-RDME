@@ -1012,7 +1012,8 @@
           },
           "name": {
             "type": "string",
-            "example": "doggie"
+            "example": "doggie",
+            "description": "<<dog>>"
           },
           "photoUrls": {
             "type": "array",
