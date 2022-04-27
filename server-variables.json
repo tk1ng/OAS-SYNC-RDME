@@ -7,13 +7,10 @@
   },
   "servers": [
     {
-      "url": "https://{name}.example.com:{port}/{basePath}",
+      "url": "http://{name}.local/{basePath}",
       "variables": {
         "name": {
           "default": "demo"
-        },
-        "port": {
-          "default": "443"
         },
         "basePath": {
           "default": "v2"
@@ -21,10 +18,13 @@
       }
     },
     {
-      "url": "http://{name}.local/{basePath}",
+      "url": "https://{name}.example.com:{port}/{basePath}",
       "variables": {
         "name": {
           "default": "demo"
+        },
+        "port": {
+          "default": "443"
         },
         "basePath": {
           "default": "v2"
