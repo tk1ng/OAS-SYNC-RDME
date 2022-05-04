@@ -4,10 +4,10 @@ name: Sync docs
 on:
   push:
     branches:
-      - main
+      - main    
     
-    
-  job1:
+jobs:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
