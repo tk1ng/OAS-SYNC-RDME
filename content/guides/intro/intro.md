@@ -1,6 +1,6 @@
 ---
 title: Platform Overview
-category: 5faad2f16f296c00401359d7
+category: 6272f14d2c9adf004c1bbab9
 ---
 
 # A Synctera Platform Overview for FinTechs
