@@ -1,0 +1,16 @@
+name: Sync docs
+
+# Run workflow for every push to the `main` branch
+on:
+  push:
+    branches:
+      - main
+    
+    
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: readmeio/rdme@6.5.0
+        with:
+          rdme: docs ./content/guides --key=${{ secrets.TEST }} --version=2.0
