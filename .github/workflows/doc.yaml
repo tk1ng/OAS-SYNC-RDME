@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: readmeio/rdme@6.5.0
         with:
-          rdme: docs ./documentation/doc_sync.md --key=${{ secrets.TEST }} --version=1.0
+          rdme: docs ./documentation/sync.md --key=${{ secrets.TEST }} --version=1.0
