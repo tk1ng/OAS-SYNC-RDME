@@ -11,6 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Github Action1
       - uses: readmeio/rdme@6.5.0
         with:
           rdme: docs ./documentation/sync.md --key=${{ secrets.TEST }} --version=1.0
+          
+     - name: Github Action2
+     - uses: readmeio/rdme@6.5.0
+       with:
+         rdme: docs ./documentation/second.md --key=${{ secrets.TEST }} --version=1.0
+
