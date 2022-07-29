@@ -1,0 +1,12 @@
+---
+title: Sympatico: Markdown + RDME
+excerpt: This doc is synced with `rdme`!
+category: 615f15d8f7ee6c005b171827
+---
+
+# 📝 Customize your docs
+
+What you're looking at right now is what we call our **Guides**. Basically, a free-form place to write to your heart's content! And the best part is... you aren't alone! Your users can contribute (with your approval, of course!) using the **[Suggested Edits](https://docs.readme.com/docs/suggested-edits)** feature on every page. It's like GitHub Pull Requests, but for text!
+
+Want to ease your users into it with some fancy marketing pages? You can enable a **[Landing Page](https://docs.readme.com/docs/landing-page)**, and write as much HTML as you want to make it look just like your brand.
+
