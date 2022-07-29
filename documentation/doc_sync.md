@@ -1,7 +1,7 @@
 ---
 title: Sympatico: Markdown + RDME
 excerpt: This doc is synced with `rdme`!
-category: 615f15d8f7ee6c005b171827
+category: 60bfc3ccdacfd9001c0df80c
 ---
 
 # 📝 Customize your docs
