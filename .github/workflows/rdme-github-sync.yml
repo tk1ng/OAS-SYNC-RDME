@@ -17,11 +17,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: readmeio/rdme@6.5.0
         with:
-          rdme: openapi ./server-variables.json --key=${{ secrets.README_API_KEY }} --id=${{ secrets.SERVER_VAR }}
-  job3:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: readmeio/rdme@6.5.0
-        with:
-          rdme: openapi ./schema-types.yaml --key=${{ secrets.README_API_KEY }} --id=${{ secrets.SCHEMA_TYPES }}
+          rdme: openapi ./sample.json --key=${{ secrets.README_API_KEY }}
+
