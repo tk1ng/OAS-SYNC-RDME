@@ -17,5 +17,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: readmeio/rdme@6.5.0
         with:
-          rdme: openapi ./sample.json --key=${{ secrets.README_API_KEY }}
+          rdme: openapi ./sample.json --key=${{ secrets.README_API_KEY }} --id=API_DEFINITION_ID
 
