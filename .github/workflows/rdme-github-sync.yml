@@ -11,11 +11,3 @@ jobs:
       - uses: readmeio/rdme@6.5.0
         with:
           rdme: openapi ./petstore.json --key=${{ secrets.README_API_KEY }} --id=${{ secrets.PETSTORE }}
-  job2:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: readmeio/rdme@6.5.0
-        with:
-          rdme: openapi ./content/openapi/sample.json --key=${{ secrets.README_API_KEY }} --id=API_DEFINITION_ID
-
