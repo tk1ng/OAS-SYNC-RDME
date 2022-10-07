@@ -46,7 +46,7 @@
     }
   ],
   "paths": {
-    "/pet": {
+    "/pets": {
       "post": {
         "tags": [
           "pet"
