@@ -12,3 +12,18 @@ Want to ease your users into it with some fancy marketing pages? You can enable 
 
 
 🌌
+
+[block:image]
+{
+"images": [
+{
+"image": [
+"https://files.readme.io/49b0fab-Environments_Sidebar_-_filter_02.png",
+"Starring and Filtering Environments"
+],
+"sizing": "100",
+"caption": "Starring and Filtering Environments"
+}
+]
+}
+[/block]
