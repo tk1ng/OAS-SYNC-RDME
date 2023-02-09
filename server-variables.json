@@ -7,13 +7,13 @@
   },
   "servers": [
     {
-      "url": "http://{name}.local/{basePath}",
+      "url": "http://{name}.com/{resource-path}",
       "variables": {
         "name": {
-          "default": "demo"
+          "default": "api-domain"
         },
-        "basePath": {
-          "default": "v2"
+        "resource-path": {
+          "default": "items"
         }
       }
     },
