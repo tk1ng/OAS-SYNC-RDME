@@ -2,6 +2,7 @@
 title: 'Sympatico: Markdown + RDME'
 excerpt: 'This doc is synced with `rdme`!'
 category: 60bfc3ccdacfd9001c0df80c
+order: 1
 ---
 
 # 📝 Customize your docs
