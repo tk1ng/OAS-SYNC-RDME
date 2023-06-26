@@ -1,7 +1,7 @@
 ---
 title: 'Adding multiple doc files with RDME'
 excerpt: This doc is synced with `rdme` CLI!
-category: 62715f5bd77e66008a7dbb7e
+category: 630d7b8b88353f0076308f4d
 hidden: false
 order: 1
 ---
