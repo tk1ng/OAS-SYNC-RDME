@@ -1014,6 +1014,11 @@
             "type": "string",
             "example": "doggie"
           },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "example": "2023-07-21"
+          },
           "photoUrls": {
             "type": "array",
             "xml": {
