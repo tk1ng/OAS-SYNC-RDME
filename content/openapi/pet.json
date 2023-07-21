@@ -188,7 +188,20 @@
                 "type": "string"
               }
             }
-          }
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "description": "Use this query parameter to set the start date for the time period that you want analytics for.\n- The API returns analytics data including the day you set in `from`.\n- The date you set must be **within the last 30 days**.\n- The value you provide must follow the `YYYY-MM-DD` format.\n",
+            "required": true,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            },
+            "example": "2023-06-01T00:00:00.000Z"
+          },
         ],
         "responses": {
           "200": {
